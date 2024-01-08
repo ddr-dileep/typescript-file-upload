@@ -90,7 +90,7 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-    "start": "nodemon src/server.ts",
+    "start": "npx tsx src/server.ts",
     "dev": "ts-node-dev --respawn src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
